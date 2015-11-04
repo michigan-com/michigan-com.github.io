@@ -8,8 +8,23 @@ body {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
 
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 #title {
   color: white;
+  text-align: center;
+}
+
+#source-link {
+  width: 100%;
   text-align: center;
 }
 
@@ -62,10 +77,5 @@ body {
   font-size: 50px;
   margin: 20px 0px;
   text-align: center;
-
-  a {
-    text-decoration: none;
-    color: white;
-  }
 }
 

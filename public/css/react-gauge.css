@@ -5,8 +5,19 @@ body {
   background-color: #292729;
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif; }
 
+a {
+  display: block;
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    text-decoration: underline; }
+
 #title {
   color: white;
+  text-align: center; }
+
+#source-link {
+  width: 100%;
   text-align: center; }
 
 #gauge-tool-container {
@@ -49,6 +60,3 @@ body {
   font-size: 50px;
   margin: 20px 0px;
   text-align: center; }
-  #github-link a {
-    text-decoration: none;
-    color: white; }
