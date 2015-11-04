@@ -19,7 +19,7 @@ var jsFiles = jsSrc + '**/*.js';
 /**
  * DEFINE ALL CLIENT JS FILES HERE BY FILENAME
  */
-var jsBundle = ['react-gauge.js'];
+var jsBundle = ['index.js', 'react-gauge.js'];
 
 /**
  * Gulp task

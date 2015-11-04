@@ -7,7 +7,7 @@ body {
   margin: 0;
   background-color: #292729; }
 
-.logo {
+.logo-container {
   width: 50%;
   height: 50%;
   max-width: 500px;
@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   text-align: center; }
   @media (max-width: 768px) {
-    .logo {
+    .logo-container {
       width: 90%; } }
-  .logo img {
+  .logo-container img {
     height: 100%; }
